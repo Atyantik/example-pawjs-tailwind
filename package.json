@@ -1,0 +1,38 @@
+{
+  "name": "example-pawjs-tailwind",
+  "version": "1.0.0",
+  "description": "Example on using Tailwind CSS with PawJS",
+  "scripts": {
+    "start": "pawjs --env=development start",
+    "build": "pawjs --env=production --config=prod.pawconfig.json build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atyantik/example-pawjs-tailwind.git"
+  },
+  "author": {
+    "name": "Atyantik Technologies",
+    "email": "admin@atyantik.com",
+    "url": "https://www.atyantik.com/"
+  },
+  "contributors": [
+    {
+      "name": "Tirth Bodawala",
+      "email": "tirthbodawala@atyantik.com",
+      "url": "https://www.atyantik.com/"
+    },
+    {
+      "name": "Yash Thakur",
+      "email": "thakur.yash514@gmail.com",
+      "url": "http://yashthakur.in/"
+    }
+  ],
+  "devDependencies": {
+    "@pawjs/pawjs": "^2.1.10"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atyantik/example-pawjs-tailwind/issues"
+  },
+  "homepage": "https://github.com/Atyantik/example-pawjs-tailwind#readme"
+}
