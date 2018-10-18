@@ -15,6 +15,9 @@
     "email": "admin@atyantik.com",
     "url": "https://www.atyantik.com/"
   },
+  "engines": {
+    "node": ">=10.11.0"
+  },
   "contributors": [
     {
       "name": "Tirth Bodawala",
