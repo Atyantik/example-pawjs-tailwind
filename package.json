@@ -28,11 +28,16 @@
     }
   ],
   "devDependencies": {
-    "@pawjs/pawjs": "^2.1.10"
+    "@pawjs/pawjs": "^2.2.3"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Atyantik/example-pawjs-tailwind/issues"
   },
-  "homepage": "https://github.com/Atyantik/example-pawjs-tailwind#readme"
+  "homepage": "https://github.com/Atyantik/example-pawjs-tailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^9.2.0",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^0.6.6"
+  }
 }
