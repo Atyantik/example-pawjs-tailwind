@@ -3,6 +3,7 @@
   "host": "0.0.0.0",
   "appRootUrl": "/examples/tailwind",
   "serviceWorker": false,
+  "asyncCSS": false,
   "serverSideRender": true,
   "singlePageApplication": false
 }
