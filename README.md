@@ -24,7 +24,7 @@ npm install
 npm start
 ```
 
-### AntDesign
+### Tailwind CSS
 Visit [Tailwind CSS](https://tailwindcss.com/) for more details & documentation on Tailwind CSS  
 
 ### ReactPWA
@@ -57,4 +57,4 @@ Everyone at Atyantik Technologies is contributing their free time for contributi
 
 
 ### License
-This project is licensed under the MIT license, Copyright (c) 2018 [Atyantik Technologies Private Limited](https://www.atyantik.com). For more information see [LICENSE.md]("https://github.com/Atyantik/example-pawjs-ant-design/blob/master/LICENSE.md").  
+This project is licensed under the MIT license, Copyright (c) 2018 [Atyantik Technologies Private Limited](https://www.atyantik.com). For more information see [LICENSE.md]("https://github.com/Atyantik/example-pawjs-tailwind/blob/master/LICENSE.md").  
