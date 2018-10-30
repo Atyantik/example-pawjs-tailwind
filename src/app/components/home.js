@@ -259,6 +259,13 @@ const Home = () => (
                 </Link>
               </div>
             </div>
+
+            <div className="flex-grow sm:w-64 mb-6 sm:mr-6">
+              <div className="flex flex-col p-4">
+                <script src="https://codefund.io/scripts/fefc6de5-a0ce-46e8-a15d-f43733b5b454/embed.js" />
+                <div id="codefund_ad" />
+              </div>
+            </div>
           </div>
           <div className="flex flex-col mt-6 text-center">
             <div className="flex-1">
@@ -272,6 +279,24 @@ const Home = () => (
             <div className="flex-1 mt-2 text-xs text-grey-dark">
               or&nbsp;
               <Link to="/" className="text-grey-dark">deleted</Link>
+            </div>
+          </div>
+          <div className="flex flex-col mt-6 text-center">
+            <div className="flex-1">
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+              <ins
+                className="adsbygoogle"
+                data-ad-client="ca-pub-7586505628408924"
+                data-ad-slot="5652642939"
+                data-ad-format="auto"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col mt-6 text-center">
+            <div className="flex-1">
+              This is an example of implementation of Tailwind with ReactPWA.
+              Help us grow further visit&nbsp;
+              <a href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
             </div>
           </div>
         </div>
