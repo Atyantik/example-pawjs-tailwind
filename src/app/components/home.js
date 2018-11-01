@@ -130,7 +130,7 @@ const Home = () => (
       <div className="ml-22 mr-4 sm:ml-36 sm:mr-16 md:ml-52 md:mr-24 lg:ml-64 lg:mr-16 pin-x pin-t fixed">
         <header className="flex items-center justify-between z-0 bg-white py-6 border-b">
           <h1 className="font-light text-3xl">
-            Clients
+            Tailwind + ReactPWA
           </h1>
           <a
             href="https://github.com/Atyantik/example-pawjs-tailwind"
