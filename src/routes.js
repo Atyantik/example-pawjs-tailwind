@@ -68,8 +68,8 @@ export default class Routes {
       });
       // eslint-disable-next-line
       routeHandler.getDefaultSeoSchema = () => ({
-        title: 'ReactPWA | TailwindCSS',
-        name: 'ReactPWA | TailwindCSS',
+        title: 'ReactPWA | PawJS - TailwindCSS',
+        name: 'ReactPWA | P-Tailwind',
         description: 'TailwindCSS implementation using ReactPWA',
         type: 'website',
         url: 'https://www.reactpwa.com/examples/tailwind',

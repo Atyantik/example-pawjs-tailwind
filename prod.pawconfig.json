@@ -2,7 +2,7 @@
   "port": "9001",
   "host": "0.0.0.0",
   "appRootUrl": "/examples/tailwind",
-  "serviceWorker": false,
+  "serviceWorker": true,
   "asyncCSS": false,
   "serverSideRender": true,
   "singlePageApplication": false
