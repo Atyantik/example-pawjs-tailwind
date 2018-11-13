@@ -21,8 +21,8 @@ export default class Routes {
     routeHandler.hooks.initRoutes.tapPromise('AppRoutes', async () => {
       routeHandler.addRoutes(routes);
       routeHandler.setPwaSchema({
-        name: 'ReactPWA | TailwindCSS',
-        short_name: 'RPWAT',
+        name: 'ReactPWA | PawJS - TailwindCSS',
+        short_name: 'P-Tailwind',
         dir: 'ltr',
         lang: 'en-US',
         orientation: 'any',
@@ -68,8 +68,8 @@ export default class Routes {
       });
       // eslint-disable-next-line
       routeHandler.getDefaultSeoSchema = () => ({
-        title: 'ReactPWA | PawJS - TailwindCSS',
-        name: 'ReactPWA | P-Tailwind',
+        title: 'ReactPWA | TailwindCSS',
+        name: 'ReactPWA | Tailwind',
         description: 'TailwindCSS implementation using ReactPWA',
         type: 'website',
         url: 'https://www.reactpwa.com/examples/tailwind',
