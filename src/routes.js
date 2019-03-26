@@ -9,17 +9,17 @@ import ShareImg512 from './resources/img/icon-512x512.png';
 import SocialShareImg from './resources/img/Social-Share-Image.png';
 
 export default class Routes {
-  apply(routeHandler) {
-    const routes = [
-      {
-        path: '/',
-        exact: true,
-        component: import('./app/components/home'),
-      },
-    ];
+  routes = [
+    {
+      path: '/',
+      exact: true,
+      component: () => import('./app/components/home'),
+    },
+  ];
 
+  apply(routeHandler) {
     routeHandler.hooks.initRoutes.tapPromise('AppRoutes', async () => {
-      routeHandler.addRoutes(routes);
+      routeHandler.addRoutes(this.routes);
       routeHandler.setPwaSchema({
         name: 'ReactPWA | PawJS - TailwindCSS',
         short_name: 'P-Tailwind',
