@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Home = () => (
   <div className="flex items-center">
     <nav
-      className="flex flex-col items-center fixed pin-y pin-l w-16 lg:w-36 pt-4 lg:pt-0 bg-blue text-blue-light text-left z-10"
+      className="flex flex-col items-center fixed inset-y-0 left-0 w-16 lg:w-36 pt-4 lg:pt-0 bg-blue text-blue-light text-left z-10"
     >
-      <div className="flex-no-shrink flex flex-col items-center text-blue-light w-full lg:hidden">
+      <div className="flex-shrink-0 flex flex-col items-center text-blue-light w-full lg:hidden">
         <Link to="/" className="no-underline text-blue-lighter hover:text-blue-lightest">
           <i className="far fa-bell block mb-4 text-lg" />
         </Link>
@@ -27,7 +27,7 @@ const Home = () => (
       <div className="hidden lg:block w-full">
         <Link
           to="/"
-          className="absolute pin-r no-underline text-blue-lighter hover:text-blue-lightest z-40 mr-3 mt-4"
+          className="absolute right-0 no-underline text-blue-lighter hover:text-blue-lightest z-40 mr-3 mt-4"
         >
           <i className="far fa-bell block mb-4 text-lg" />
         </Link>
@@ -45,7 +45,7 @@ const Home = () => (
               <p className="text-xs mb-1">Joey</p>
               <p className="text-xs text-blue-lightest">30 Cubits</p>
             </div>
-            <div className="absolute pin-r pin-b mb-4 mr-4">
+            <div className="absolute right-0 bottom-0 mb-4 mr-4">
               <i className="fas fa-chevron-down block text-xs" />
             </div>
           </Link>
@@ -84,7 +84,7 @@ const Home = () => (
         >
           <i className="w-1/4 fas fa-graduation-cap text-lg" />
           <div className="w-3/4 hidden lg:inline-block font-light text-sm text-blue-lightest">Clients</div>
-          <i className="fas fa-caret-left text-lg absolute pin-r" />
+          <i className="fas fa-caret-left text-lg absolute right-0" />
         </Link>
 
         <Link
@@ -111,7 +111,7 @@ const Home = () => (
           <div className="w-3/4 hidden lg:inline-block font-light text-sm text-blue-lightest">Time Tracking</div>
         </Link>
 
-        <div className="fixed pin-b mb-4 w-16 lg:w-36">
+        <div className="fixed bottom-0 mb-4 w-16 lg:w-36">
           <div className="block lg:hidden border-t border-blue-light pt-4 mx-3 text-center">
             <i className="fas fa-leaf text-lg text-blue-lighter" />
           </div>
@@ -127,7 +127,7 @@ const Home = () => (
     </nav>
 
     <div className="flex-1">
-      <div className="ml-22 mr-4 sm:ml-36 sm:mr-16 md:ml-52 md:mr-24 lg:ml-64 lg:mr-16 pin-x pin-t fixed">
+      <div className="ml-22 mr-4 sm:ml-36 sm:mr-16 md:ml-52 md:mr-24 lg:ml-64 lg:mr-16 inset-x-0 top-0 fixed">
         <header className="flex items-center justify-between z-0 bg-white py-6 border-b">
           <h1 className="font-light text-3xl">
             Tailwind + ReactPWA
@@ -296,7 +296,7 @@ const Home = () => (
             <div className="flex-1">
               This is an example of implementation of Tailwind with ReactPWA.
               Help us grow further visit&nbsp;
-              <a href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
+              <a className="underline text-blue" href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
             </div>
           </div>
         </div>
