@@ -31,7 +31,7 @@
     }
   ],
   "devDependencies": {
-    "@pawjs/pawjs": "^2.4.0-beta.0"
+    "@pawjs/pawjs": "^4.0.0-beta.19"
   },
   "license": "MIT",
   "bugs": {
@@ -40,7 +40,7 @@
   "homepage": "https://github.com/Atyantik/example-pawjs-tailwind#readme",
   "dependencies": {
     "autoprefixer": "^9.5.0",
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "^7.0.2",
     "tailwindcss": "^1.1.2"
   }
 }
